@@ -5,7 +5,6 @@ const cheerio = require('cheerio');
 const projectID = 'hindi-classcentral'
 const { Translate } = require('@google-cloud/translate').v2;
 require('dotenv').config();
-//const API_KEY = 'AIzaSyCkp0ezhnf5Y7q0Rd7Plju4EQhkrOiyAV4'
 const { API_KEY} = process.env;
 
 const BASE_URL = 'https://www.classcentral.com';
